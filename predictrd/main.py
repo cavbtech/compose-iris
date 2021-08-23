@@ -20,7 +20,7 @@ class QueryIn(BaseModel):
 
 # class which is returned in the response
 class QueryOut(BaseModel):
-    classvariable: str
+    is_diabetic: str
 
 
 # Route definitions
